@@ -20,7 +20,7 @@ export const HeaderPages = () => {
           <div className={` w-1/4 h-1/2 flex justify-center items-center ${theme.text__page_header_color}`} >Gmail</div>
         </section>
         <section className="w-2/12 flex justify-center">
-          <h1 className={`${theme.text__page_header_color} text-lg`}>Home</h1>
+          <h1 className={`${theme.text__page_header_color} text-2xl`}>Skill</h1>
         </section>
       </header>
     </>
