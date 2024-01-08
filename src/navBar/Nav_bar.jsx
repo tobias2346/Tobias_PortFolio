@@ -10,7 +10,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <nav className={`left-0 z-20 h-full w-[3%] ${theme.bg_navBar_color} flex flex-col justify-between fixed`}>
+      <nav className={`left-0 z-20 h-full w-16 ${theme.bg_navBar_color} flex flex-col justify-between fixed`}>
         <Nav_Links/>
         <Nav_socialMedia/>
       </nav>

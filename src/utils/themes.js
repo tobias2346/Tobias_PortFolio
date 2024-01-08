@@ -4,7 +4,7 @@ const yellowTheme = {
     //
     logo_color : 'from-yellow-500 to-yellow-800',
     //
-    bg_backGround_color : 'from-yellow-600 via-yellow-500 to-yellow-300',
+    bg_backGround_color : 'bg-yellow-500',
     bg_navBar_color : 'bg-gray-900',
     bg_page_color : 'bg-gray-900',
     //
@@ -13,6 +13,8 @@ const yellowTheme = {
     text_subTitle_color : 'text-white',
     text_info_color : 'text-yellow-300',
     text__page_header_color : 'text-white',
+    //
+    border_page_color : 'border-yellow-500'
   }
 
   const redTheme = {
@@ -20,7 +22,7 @@ const yellowTheme = {
     //
     logo_color : 'from-red-500 to-red-800',
     //
-    bg_backGround_color : 'from-red-600 via-red-500 to-red-300',
+    bg_backGround_color : 'bg-red-600',
     bg_navBar_color : 'bg-gray-950',
     bg_page_color : 'bg-gray-950',
     //
@@ -29,13 +31,16 @@ const yellowTheme = {
     text_subTitle_color : 'text-white',
     text_info_color : 'text-white',
     text__page_header_color : 'text-white',
+    //
+    border_page_color : 'border-red-600'
+
   }
   const cyanTheme = {
     bg_main_color : 'bg-cyan-500',
     //
     logo_color : 'from-cyan-500 to-cyan-800',
     //
-    bg_backGround_color : 'from-cyan-600 via-cyan-400 to-cyan-200',
+    bg_backGround_color : 'bg-cyan-400',
     bg_navBar_color : 'bg-white',
     bg_page_color : 'bg-sky-950',
     //
@@ -43,7 +48,10 @@ const yellowTheme = {
     text_title_color : 'text-cyan-300',
     text_subTitle_color : 'text-white',
     text_info_color : 'text-cyan-400',
-    text__page_header_color : 'text-white'
+    text__page_header_color : 'text-white',
+    //
+    border_page_color : 'border-cyan-400'
+
   }
   
   const greenTheme = {
@@ -51,7 +59,7 @@ const yellowTheme = {
     //
     logo_color : 'from-green-500 to-green-800',
     //
-    bg_backGround_color : 'from-green-800 via-green-700 to-green-600',
+    bg_backGround_color : 'bg-green-700',
     bg_navBar_color : 'bg-white',
     bg_page_color : 'bg-white',
     //
@@ -59,7 +67,10 @@ const yellowTheme = {
     text_title_color : 'text-green-600',
     text_subTitle_color : 'text-black',
     text_info_color : 'text-cyan-400',
-    text__page_header_color : 'text-black'
+    text__page_header_color : 'text-black',
+    //
+    border_page_color : 'border-green-700'
+
   }
   
   const purpleTheme = {
@@ -67,15 +78,18 @@ const yellowTheme = {
     //
     logo_color : 'from-violet-500 to-violet-800',
     //
-    bg_backGround_color : 'from-purple-300 via-purple-100 to-purple-300',
+    bg_backGround_color : 'bg-violet-500',
     bg_navBar_color : 'bg-white',
-    bg_page_color : 'bg-purple-500',
+    bg_page_color : 'bg-violet-800',
     //
     text_main_color : 'bg-purple-500',
     text_title_color : 'text-white',
     text_subTitle_color : 'text-white',
     text_info_color : 'text-white',
-    text__page_header_color : 'text-white'
+    text__page_header_color : 'text-white',
+    //
+    border_page_color : 'border-violet-500'
+
   }
 
   const blackTheme = {
@@ -83,7 +97,7 @@ const yellowTheme = {
     //
     logo_color : 'bg-black',
     //
-    bg_backGround_color : 'from-purple-300 via-purple-100 to-purple-300',
+    bg_backGround_color : 'bg-gray-800',
     bg_navBar_color : 'bg-black',
     bg_page_color : 'bg-gray-950',
     //
@@ -91,7 +105,10 @@ const yellowTheme = {
     text_title_color : 'text-white',
     text_subTitle_color : 'text-white',
     text_info_color : 'text-black',
-    text__page_header_color : 'text-white'
+    text__page_header_color : 'text-white',
+    //
+    border_page_color : 'border-gray-800'
+
   }
 
   const whiteTheme = {
@@ -107,7 +124,10 @@ const yellowTheme = {
     text_title_color : 'text-black',
     text_subTitle_color : 'text-black',
     text_info_color : 'text-black',
-    text__page_header_color : 'text-black'
+    text__page_header_color : 'text-black',
+    //
+    border_page_color : 'border-gray-300'
+
   }
 
   export default {
