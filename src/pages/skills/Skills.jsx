@@ -18,8 +18,8 @@ export const Skills = () => {
 
   return (
     <>
-
-      <main className={`w-10/12 h-5/6 flex flex-col justify-between  m-0 ${theme.bg_page_color} rounded shadow shadow-black`}>
+    <main className="h-screen w-screen flex justify-center items-center">
+      <div className={`w-10/12 h-5/6 flex flex-col justify-between  m-0 ${theme.bg_page_color} rounded shadow shadow-black`}>
         <HeaderPages />
         <article className='w-full h-5/6 flex justify-center items-center'>
           <section className=' w-1/2 h-full flex flex-col justify-between items-center'>
@@ -68,6 +68,7 @@ export const Skills = () => {
           </section>
         </article>
         <Footerpages />
+      </div>
       </main>
 
     </>

@@ -4,17 +4,25 @@ import { TabThemes } from './TabThemes'
 import { useContext } from "react"
 import ThemeContext from './contexts/Theme_context'
 import { AboutMe } from './pages/about/AboutMe'
+import { Skills } from './pages/skills/Skills'
+import { Home } from './pages/home/Home'
+
 export const Background = () => {
 
   const {theme} = useContext(ThemeContext);
 
   return (
     <>
-      <main className={`h-screen w-full flex justify-center items-center bg-gradient-to-r  ${theme.bg_backGround_color}`}>
-        <NavBar/>
-        <TabThemes/>
+    <div className='flex justify-center items-center bg-red-500'>
+      <NavBar/>
+      <TabThemes/>
+      <main className='flex flex-nowrap'>
+        <Home/>
         <AboutMe/>
+        <Skills/>
       </main>
+    </div>
+
     </>
   )
 }
