@@ -9,7 +9,7 @@ export const Home = () => {
 
   return (
     <>
-    <main className="h-screen w-screen flex justify-center items-center">
+    <main className="h-screen w-screen flex justify-center items-center ">
       <div className={`w-10/12 h-5/6 flex flex-col justify-between  m-0 ${theme.bg_page_color} rounded shadow-lg`}>
         <HeaderPages />
         <section className=" h-5/6 w-full flex justify-center items-center z-10">

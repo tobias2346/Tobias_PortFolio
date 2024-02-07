@@ -10,7 +10,7 @@ export const AboutMe = () => {
 
   return (
     <>
-      <main className="h-screen w-screen flex justify-center items-center ">
+      <main className="h-screen w-screen flex justify-center items-center  ">
         <div className={`w-10/12 h-5/6 flex flex-col justify-start  m-0 ${theme.bg_page_color} rounded shadow shadow-black`}>
           <HeaderPages />
           <section className='h-full w-full flex justify-around items-center z-10'>
